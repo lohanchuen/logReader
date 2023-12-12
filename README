@@ -19,3 +19,16 @@ You must also provide evidence that the features you have implemented work corre
 
 The time allotted to the test is 1 hour. Your solution will be judged on a number of criteria pertinent to good
 software development practice. Incomplete solutions are acceptable.
+
+
+Output:
+FilterByCountry country=GB :
+1432917066,GB,37
+1239242569,GB,62
+FilterByCountryWithResponseTimeAboveLimit limit=40 :
+1239242569,GB,62
+FilterByCountryWithResponseTimeAboveLimit:
+1433190845,US,39
+1239242569,GB,62
+
+Process finished with exit code 0
